@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBC8A4A92C4FDFDC00845FFF /* GoroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC8A4A82C4FDFDC00845FFF /* GoroApp.swift */; };
+		DBC8A4AB2C4FDFDC00845FFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC8A4AA2C4FDFDC00845FFF /* ContentView.swift */; };
+		DBC8A4AD2C4FDFDC00845FFF /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC8A4AC2C4FDFDC00845FFF /* Item.swift */; };
+		DBC8A4AF2C4FDFDE00845FFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC8A4AE2C4FDFDE00845FFF /* Assets.xcassets */; };
+		DBC8A4B32C4FDFDE00845FFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC8A4B22C4FDFDE00845FFF /* Preview Assets.xcassets */; };
+		DBC8A4BD2C4FDFDE00845FFF /* GoroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC8A4BC2C4FDFDE00845FFF /* GoroTests.swift */; };
+		DBC8A4C72C4FDFDE00845FFF /* GoroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC8A4C62C4FDFDE00845FFF /* GoroUITests.swift */; };
+		DBC8A4C92C4FDFDE00845FFF /* GoroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC8A4C82C4FDFDE00845FFF /* GoroUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBC8A4B92C4FDFDE00845FFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBC8A49D2C4FDFDC00845FFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBC8A4A42C4FDFDC00845FFF;
+			remoteInfo = Goro;
+		};
+		DBC8A4C32C4FDFDE00845FFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBC8A49D2C4FDFDC00845FFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBC8A4A42C4FDFDC00845FFF;
+			remoteInfo = Goro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBC8A4A52C4FDFDC00845FFF /* Goro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Goro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC8A4A82C4FDFDC00845FFF /* GoroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoroApp.swift; sourceTree = "<group>"; };
+		DBC8A4AA2C4FDFDC00845FFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DBC8A4AC2C4FDFDC00845FFF /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		DBC8A4AE2C4FDFDE00845FFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBC8A4B02C4FDFDE00845FFF /* Goro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Goro.entitlements; sourceTree = "<group>"; };
+		DBC8A4B22C4FDFDE00845FFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DBC8A4B82C4FDFDE00845FFF /* GoroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC8A4BC2C4FDFDE00845FFF /* GoroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoroTests.swift; sourceTree = "<group>"; };
+		DBC8A4C22C4FDFDE00845FFF /* GoroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC8A4C62C4FDFDE00845FFF /* GoroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoroUITests.swift; sourceTree = "<group>"; };
+		DBC8A4C82C4FDFDE00845FFF /* GoroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBC8A4A22C4FDFDC00845FFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC8A4B52C4FDFDE00845FFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC8A4BF2C4FDFDE00845FFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBC8A49C2C4FDFDC00845FFF = {
+			isa = PBXGroup;
+			children = (
+				DBC8A4A72C4FDFDC00845FFF /* Goro */,
+				DBC8A4BB2C4FDFDE00845FFF /* GoroTests */,
+				DBC8A4C52C4FDFDE00845FFF /* GoroUITests */,
+				DBC8A4A62C4FDFDC00845FFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBC8A4A62C4FDFDC00845FFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBC8A4A52C4FDFDC00845FFF /* Goro.app */,
+				DBC8A4B82C4FDFDE00845FFF /* GoroTests.xctest */,
+				DBC8A4C22C4FDFDE00845FFF /* GoroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBC8A4A72C4FDFDC00845FFF /* Goro */ = {
+			isa = PBXGroup;
+			children = (
+				DBC8A4A82C4FDFDC00845FFF /* GoroApp.swift */,
+				DBC8A4AA2C4FDFDC00845FFF /* ContentView.swift */,
+				DBC8A4AC2C4FDFDC00845FFF /* Item.swift */,
+				DBC8A4AE2C4FDFDE00845FFF /* Assets.xcassets */,
+				DBC8A4B02C4FDFDE00845FFF /* Goro.entitlements */,
+				DBC8A4B12C4FDFDE00845FFF /* Preview Content */,
+			);
+			path = Goro;
+			sourceTree = "<group>";
+		};
+		DBC8A4B12C4FDFDE00845FFF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DBC8A4B22C4FDFDE00845FFF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DBC8A4BB2C4FDFDE00845FFF /* GoroTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBC8A4BC2C4FDFDE00845FFF /* GoroTests.swift */,
+			);
+			path = GoroTests;
+			sourceTree = "<group>";
+		};
+		DBC8A4C52C4FDFDE00845FFF /* GoroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBC8A4C62C4FDFDE00845FFF /* GoroUITests.swift */,
+				DBC8A4C82C4FDFDE00845FFF /* GoroUITestsLaunchTests.swift */,
+			);
+			path = GoroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBC8A4A42C4FDFDC00845FFF /* Goro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC8A4CC2C4FDFDE00845FFF /* Build configuration list for PBXNativeTarget "Goro" */;
+			buildPhases = (
+				DBC8A4A12C4FDFDC00845FFF /* Sources */,
+				DBC8A4A22C4FDFDC00845FFF /* Frameworks */,
+				DBC8A4A32C4FDFDC00845FFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Goro;
+			productName = Goro;
+			productReference = DBC8A4A52C4FDFDC00845FFF /* Goro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBC8A4B72C4FDFDE00845FFF /* GoroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC8A4CF2C4FDFDE00845FFF /* Build configuration list for PBXNativeTarget "GoroTests" */;
+			buildPhases = (
+				DBC8A4B42C4FDFDE00845FFF /* Sources */,
+				DBC8A4B52C4FDFDE00845FFF /* Frameworks */,
+				DBC8A4B62C4FDFDE00845FFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBC8A4BA2C4FDFDE00845FFF /* PBXTargetDependency */,
+			);
+			name = GoroTests;
+			productName = GoroTests;
+			productReference = DBC8A4B82C4FDFDE00845FFF /* GoroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBC8A4C12C4FDFDE00845FFF /* GoroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC8A4D22C4FDFDE00845FFF /* Build configuration list for PBXNativeTarget "GoroUITests" */;
+			buildPhases = (
+				DBC8A4BE2C4FDFDE00845FFF /* Sources */,
+				DBC8A4BF2C4FDFDE00845FFF /* Frameworks */,
+				DBC8A4C02C4FDFDE00845FFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBC8A4C42C4FDFDE00845FFF /* PBXTargetDependency */,
+			);
+			name = GoroUITests;
+			productName = GoroUITests;
+			productReference = DBC8A4C22C4FDFDE00845FFF /* GoroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBC8A49D2C4FDFDC00845FFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					DBC8A4A42C4FDFDC00845FFF = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					DBC8A4B72C4FDFDE00845FFF = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = DBC8A4A42C4FDFDC00845FFF;
+					};
+					DBC8A4C12C4FDFDE00845FFF = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = DBC8A4A42C4FDFDC00845FFF;
+					};
+				};
+			};
+			buildConfigurationList = DBC8A4A02C4FDFDC00845FFF /* Build configuration list for PBXProject "Goro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBC8A49C2C4FDFDC00845FFF;
+			productRefGroup = DBC8A4A62C4FDFDC00845FFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBC8A4A42C4FDFDC00845FFF /* Goro */,
+				DBC8A4B72C4FDFDE00845FFF /* GoroTests */,
+				DBC8A4C12C4FDFDE00845FFF /* GoroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBC8A4A32C4FDFDC00845FFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC8A4B32C4FDFDE00845FFF /* Preview Assets.xcassets in Resources */,
+				DBC8A4AF2C4FDFDE00845FFF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC8A4B62C4FDFDE00845FFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC8A4C02C4FDFDE00845FFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBC8A4A12C4FDFDC00845FFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC8A4AB2C4FDFDC00845FFF /* ContentView.swift in Sources */,
+				DBC8A4AD2C4FDFDC00845FFF /* Item.swift in Sources */,
+				DBC8A4A92C4FDFDC00845FFF /* GoroApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC8A4B42C4FDFDE00845FFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC8A4BD2C4FDFDE00845FFF /* GoroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC8A4BE2C4FDFDE00845FFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC8A4C72C4FDFDE00845FFF /* GoroUITests.swift in Sources */,
+				DBC8A4C92C4FDFDE00845FFF /* GoroUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBC8A4BA2C4FDFDE00845FFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBC8A4A42C4FDFDC00845FFF /* Goro */;
+			targetProxy = DBC8A4B92C4FDFDE00845FFF /* PBXContainerItemProxy */;
+		};
+		DBC8A4C42C4FDFDE00845FFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBC8A4A42C4FDFDC00845FFF /* Goro */;
+			targetProxy = DBC8A4C32C4FDFDE00845FFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DBC8A4CA2C4FDFDE00845FFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBC8A4CB2C4FDFDE00845FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DBC8A4CD2C4FDFDE00845FFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Goro/Goro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Goro/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goro.Goro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBC8A4CE2C4FDFDE00845FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Goro/Goro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Goro/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goro.Goro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DBC8A4D02C4FDFDE00845FFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goro.GoroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Goro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Goro";
+			};
+			name = Debug;
+		};
+		DBC8A4D12C4FDFDE00845FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goro.GoroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Goro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Goro";
+			};
+			name = Release;
+		};
+		DBC8A4D32C4FDFDE00845FFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goro.GoroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Goro;
+			};
+			name = Debug;
+		};
+		DBC8A4D42C4FDFDE00845FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goro.GoroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Goro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBC8A4A02C4FDFDC00845FFF /* Build configuration list for PBXProject "Goro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC8A4CA2C4FDFDE00845FFF /* Debug */,
+				DBC8A4CB2C4FDFDE00845FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC8A4CC2C4FDFDE00845FFF /* Build configuration list for PBXNativeTarget "Goro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC8A4CD2C4FDFDE00845FFF /* Debug */,
+				DBC8A4CE2C4FDFDE00845FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC8A4CF2C4FDFDE00845FFF /* Build configuration list for PBXNativeTarget "GoroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC8A4D02C4FDFDE00845FFF /* Debug */,
+				DBC8A4D12C4FDFDE00845FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC8A4D22C4FDFDE00845FFF /* Build configuration list for PBXNativeTarget "GoroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC8A4D32C4FDFDE00845FFF /* Debug */,
+				DBC8A4D42C4FDFDE00845FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBC8A49D2C4FDFDC00845FFF /* Project object */;
+}
