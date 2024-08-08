@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BE96E9C2878CA7CC0DECDA7 /* Pods_Goro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A02AA0FAC907CA1B582E1D /* Pods_Goro.framework */; };
+		67BE665B38C8FB19F81D90B3 /* Pods_GoroTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E261FCF66272E3DA057C198 /* Pods_GoroTests.framework */; };
+		AFC8CB011FF44DEAA262B6A0 /* Pods_Goro_GoroUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9304EB983737D100AE89E4D3 /* Pods_Goro_GoroUITests.framework */; };
+		DB149CC12C578CA2005F71C0 /* ImageSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB149CC02C578CA2005F71C0 /* ImageSlider.swift */; };
+		DB149CC32C58AD8F005F71C0 /* ImageSliderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB149CC22C58AD8F005F71C0 /* ImageSliderViewModel.swift */; };
+		DB149CC52C58B136005F71C0 /* ImageSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB149CC42C58B136005F71C0 /* ImageSliderView.swift */; };
 		DBC8A4A92C4FDFDC00845FFF /* GoroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC8A4A82C4FDFDC00845FFF /* GoroApp.swift */; };
 		DBC8A4AB2C4FDFDC00845FFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC8A4AA2C4FDFDC00845FFF /* ContentView.swift */; };
 		DBC8A4AD2C4FDFDC00845FFF /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC8A4AC2C4FDFDC00845FFF /* Item.swift */; };
@@ -15,6 +21,21 @@
 		DBC8A4BD2C4FDFDE00845FFF /* GoroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC8A4BC2C4FDFDE00845FFF /* GoroTests.swift */; };
 		DBC8A4C72C4FDFDE00845FFF /* GoroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC8A4C62C4FDFDE00845FFF /* GoroUITests.swift */; };
 		DBC8A4C92C4FDFDE00845FFF /* GoroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC8A4C82C4FDFDE00845FFF /* GoroUITestsLaunchTests.swift */; };
+		DBC8A4D62C4FE08600845FFF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC8A4D52C4FE08600845FFF /* LoginView.swift */; };
+		DBC8A4D82C4FE0C500845FFF /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC8A4D72C4FE0C500845FFF /* LoadingView.swift */; };
+		DBFE8E662C5B0E4B0044CB96 /* PagingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFE8E652C5B0E4B0044CB96 /* PagingControl.swift */; };
+		DBFE8E682C5CA15B0044CB96 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFE8E672C5CA15B0044CB96 /* Category.swift */; };
+		DBFE8E6A2C5CA2520044CB96 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFE8E692C5CA2520044CB96 /* Store.swift */; };
+		DBFE8E6E2C5CD1140044CB96 /* PostVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFE8E6D2C5CD1140044CB96 /* PostVM.swift */; };
+		DBFE8E722C5D0BA40044CB96 /* TestApiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFE8E712C5D0BA40044CB96 /* TestApiView.swift */; };
+		DBFE8E752C62087F0044CB96 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFE8E742C62087F0044CB96 /* ApiError.swift */; };
+		DBFE8E792C6212D40044CB96 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFE8E782C6212D40044CB96 /* Api.swift */; };
+		DBFE8E7B2C62171C0044CB96 /* ApiGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFE8E7A2C62171C0044CB96 /* ApiGroup.swift */; };
+		DBFE8E7D2C62195B0044CB96 /* GetVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFE8E7C2C62195B0044CB96 /* GetVM.swift */; };
+		DBFE8E7F2C6322BE0044CB96 /* ApiDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFE8E7E2C6322BE0044CB96 /* ApiDetailView.swift */; };
+		DBFE8E812C6324E20044CB96 /* ApiRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFE8E802C6324E20044CB96 /* ApiRowView.swift */; };
+		DBFE8E852C6340D80044CB96 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFE8E842C6340D80044CB96 /* ApiService.swift */; };
+		DBFE8E8C2C636E560044CB96 /* AddDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFE8E8B2C636E560044CB96 /* AddDataView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +56,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00A02AA0FAC907CA1B582E1D /* Pods_Goro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Goro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E0C7AB28B0028FF7DDB7796 /* Pods-GoroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoroTests.release.xcconfig"; path = "Target Support Files/Pods-GoroTests/Pods-GoroTests.release.xcconfig"; sourceTree = "<group>"; };
+		1A38D9E93DF867729E588677 /* Pods-Goro-GoroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Goro-GoroUITests.debug.xcconfig"; path = "Target Support Files/Pods-Goro-GoroUITests/Pods-Goro-GoroUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		220C58E1C8AF048F64D445DE /* Pods-GoroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoroTests.debug.xcconfig"; path = "Target Support Files/Pods-GoroTests/Pods-GoroTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3231A668F21D145B44CBC5F3 /* Pods-Goro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Goro.debug.xcconfig"; path = "Target Support Files/Pods-Goro/Pods-Goro.debug.xcconfig"; sourceTree = "<group>"; };
+		39012B637F3E00CC2F44B7E7 /* Pods-Goro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Goro.release.xcconfig"; path = "Target Support Files/Pods-Goro/Pods-Goro.release.xcconfig"; sourceTree = "<group>"; };
+		3E261FCF66272E3DA057C198 /* Pods_GoroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoroTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7D260DAB76954C2241555D /* Pods-Goro-GoroUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Goro-GoroUITests.release.xcconfig"; path = "Target Support Files/Pods-Goro-GoroUITests/Pods-Goro-GoroUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9304EB983737D100AE89E4D3 /* Pods_Goro_GoroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Goro_GoroUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB149CC02C578CA2005F71C0 /* ImageSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSlider.swift; sourceTree = "<group>"; };
+		DB149CC22C58AD8F005F71C0 /* ImageSliderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSliderViewModel.swift; sourceTree = "<group>"; };
+		DB149CC42C58B136005F71C0 /* ImageSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSliderView.swift; sourceTree = "<group>"; };
 		DBC8A4A52C4FDFDC00845FFF /* Goro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Goro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC8A4A82C4FDFDC00845FFF /* GoroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoroApp.swift; sourceTree = "<group>"; };
 		DBC8A4AA2C4FDFDC00845FFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +80,21 @@
 		DBC8A4C22C4FDFDE00845FFF /* GoroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC8A4C62C4FDFDE00845FFF /* GoroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoroUITests.swift; sourceTree = "<group>"; };
 		DBC8A4C82C4FDFDE00845FFF /* GoroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DBC8A4D52C4FE08600845FFF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DBC8A4D72C4FE0C500845FFF /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		DBFE8E652C5B0E4B0044CB96 /* PagingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingControl.swift; sourceTree = "<group>"; };
+		DBFE8E672C5CA15B0044CB96 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		DBFE8E692C5CA2520044CB96 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		DBFE8E6D2C5CD1140044CB96 /* PostVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostVM.swift; sourceTree = "<group>"; };
+		DBFE8E712C5D0BA40044CB96 /* TestApiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApiView.swift; sourceTree = "<group>"; };
+		DBFE8E742C62087F0044CB96 /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		DBFE8E782C6212D40044CB96 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		DBFE8E7A2C62171C0044CB96 /* ApiGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiGroup.swift; sourceTree = "<group>"; };
+		DBFE8E7C2C62195B0044CB96 /* GetVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetVM.swift; sourceTree = "<group>"; };
+		DBFE8E7E2C6322BE0044CB96 /* ApiDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiDetailView.swift; sourceTree = "<group>"; };
+		DBFE8E802C6324E20044CB96 /* ApiRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRowView.swift; sourceTree = "<group>"; };
+		DBFE8E842C6340D80044CB96 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		DBFE8E8B2C636E560044CB96 /* AddDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDataView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BE96E9C2878CA7CC0DECDA7 /* Pods_Goro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67BE665B38C8FB19F81D90B3 /* Pods_GoroTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +118,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFC8CB011FF44DEAA262B6A0 /* Pods_Goro_GoroUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E278116B814676073220186 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3231A668F21D145B44CBC5F3 /* Pods-Goro.debug.xcconfig */,
+				39012B637F3E00CC2F44B7E7 /* Pods-Goro.release.xcconfig */,
+				1A38D9E93DF867729E588677 /* Pods-Goro-GoroUITests.debug.xcconfig */,
+				3F7D260DAB76954C2241555D /* Pods-Goro-GoroUITests.release.xcconfig */,
+				220C58E1C8AF048F64D445DE /* Pods-GoroTests.debug.xcconfig */,
+				0E0C7AB28B0028FF7DDB7796 /* Pods-GoroTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BF70171172ABF47B1B9E5D99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00A02AA0FAC907CA1B582E1D /* Pods_Goro.framework */,
+				9304EB983737D100AE89E4D3 /* Pods_Goro_GoroUITests.framework */,
+				3E261FCF66272E3DA057C198 /* Pods_GoroTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB149CBE2C578BE9005F71C0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DBFE8E882C635C3C0044CB96 /* TestApiVM */,
+				DB149CC22C58AD8F005F71C0 /* ImageSliderViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DB149CBF2C578C3F005F71C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DBFE8E862C635BBD0044CB96 /* TestApi */,
+				DB149CC02C578CA2005F71C0 /* ImageSlider.swift */,
+				DBFE8E672C5CA15B0044CB96 /* Category.swift */,
+				DBFE8E692C5CA2520044CB96 /* Store.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		DBC8A49C2C4FDFDC00845FFF = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +175,8 @@
 				DBC8A4BB2C4FDFDE00845FFF /* GoroTests */,
 				DBC8A4C52C4FDFDE00845FFF /* GoroUITests */,
 				DBC8A4A62C4FDFDC00845FFF /* Products */,
+				3E278116B814676073220186 /* Pods */,
+				BF70171172ABF47B1B9E5D99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,10 +193,15 @@
 		DBC8A4A72C4FDFDC00845FFF /* Goro */ = {
 			isa = PBXGroup;
 			children = (
+				DBFE8E832C6340BF0044CB96 /* Services */,
+				DBFE8E732C62080E0044CB96 /* Extension */,
+				DBFE8E632C5A1F6D0044CB96 /* Controller */,
+				DB149CBF2C578C3F005F71C0 /* Model */,
+				DBC8A4DB2C5146DF00845FFF /* View */,
+				DB149CBE2C578BE9005F71C0 /* ViewModel */,
+				DBC8A4DC2C51473300845FFF /* Assets */,
 				DBC8A4A82C4FDFDC00845FFF /* GoroApp.swift */,
-				DBC8A4AA2C4FDFDC00845FFF /* ContentView.swift */,
 				DBC8A4AC2C4FDFDC00845FFF /* Item.swift */,
-				DBC8A4AE2C4FDFDE00845FFF /* Assets.xcassets */,
 				DBC8A4B02C4FDFDE00845FFF /* Goro.entitlements */,
 				DBC8A4B12C4FDFDE00845FFF /* Preview Content */,
 			);
@@ -132,6 +233,87 @@
 			path = GoroUITests;
 			sourceTree = "<group>";
 		};
+		DBC8A4DB2C5146DF00845FFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DBFE8E872C635C110044CB96 /* TestApiView */,
+				DBC8A4AA2C4FDFDC00845FFF /* ContentView.swift */,
+				DBC8A4D52C4FE08600845FFF /* LoginView.swift */,
+				DBC8A4D72C4FE0C500845FFF /* LoadingView.swift */,
+				DB149CC42C58B136005F71C0 /* ImageSliderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DBC8A4DC2C51473300845FFF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DBC8A4AE2C4FDFDE00845FFF /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		DBFE8E632C5A1F6D0044CB96 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DBFE8E642C5B0E280044CB96 /* PagingControl */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DBFE8E642C5B0E280044CB96 /* PagingControl */ = {
+			isa = PBXGroup;
+			children = (
+				DBFE8E652C5B0E4B0044CB96 /* PagingControl.swift */,
+			);
+			path = PagingControl;
+			sourceTree = "<group>";
+		};
+		DBFE8E732C62080E0044CB96 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DBFE8E742C62087F0044CB96 /* ApiError.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		DBFE8E832C6340BF0044CB96 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DBFE8E842C6340D80044CB96 /* ApiService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DBFE8E862C635BBD0044CB96 /* TestApi */ = {
+			isa = PBXGroup;
+			children = (
+				DBFE8E782C6212D40044CB96 /* Api.swift */,
+				DBFE8E7A2C62171C0044CB96 /* ApiGroup.swift */,
+			);
+			path = TestApi;
+			sourceTree = "<group>";
+		};
+		DBFE8E872C635C110044CB96 /* TestApiView */ = {
+			isa = PBXGroup;
+			children = (
+				DBFE8E712C5D0BA40044CB96 /* TestApiView.swift */,
+				DBFE8E7E2C6322BE0044CB96 /* ApiDetailView.swift */,
+				DBFE8E802C6324E20044CB96 /* ApiRowView.swift */,
+				DBFE8E8B2C636E560044CB96 /* AddDataView.swift */,
+			);
+			path = TestApiView;
+			sourceTree = "<group>";
+		};
+		DBFE8E882C635C3C0044CB96 /* TestApiVM */ = {
+			isa = PBXGroup;
+			children = (
+				DBFE8E6D2C5CD1140044CB96 /* PostVM.swift */,
+				DBFE8E7C2C62195B0044CB96 /* GetVM.swift */,
+			);
+			path = TestApiVM;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +321,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBC8A4CC2C4FDFDE00845FFF /* Build configuration list for PBXNativeTarget "Goro" */;
 			buildPhases = (
+				BCD59E7B3CB9B81D78468F11 /* [CP] Check Pods Manifest.lock */,
 				DBC8A4A12C4FDFDC00845FFF /* Sources */,
 				DBC8A4A22C4FDFDC00845FFF /* Frameworks */,
 				DBC8A4A32C4FDFDC00845FFF /* Resources */,
+				15D56EBB4A7C9FB3731FF198 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,6 +340,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBC8A4CF2C4FDFDE00845FFF /* Build configuration list for PBXNativeTarget "GoroTests" */;
 			buildPhases = (
+				5065A34B1836A424CACB61CD /* [CP] Check Pods Manifest.lock */,
 				DBC8A4B42C4FDFDE00845FFF /* Sources */,
 				DBC8A4B52C4FDFDE00845FFF /* Frameworks */,
 				DBC8A4B62C4FDFDE00845FFF /* Resources */,
@@ -174,9 +359,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBC8A4D22C4FDFDE00845FFF /* Build configuration list for PBXNativeTarget "GoroUITests" */;
 			buildPhases = (
+				3850579E570BBD98366EA387 /* [CP] Check Pods Manifest.lock */,
 				DBC8A4BE2C4FDFDE00845FFF /* Sources */,
 				DBC8A4BF2C4FDFDE00845FFF /* Frameworks */,
 				DBC8A4C02C4FDFDE00845FFF /* Resources */,
+				78DAB7D3BC1A253ED1538199 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,14 +444,135 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15D56EBB4A7C9FB3731FF198 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Goro/Pods-Goro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Goro/Pods-Goro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Goro/Pods-Goro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3850579E570BBD98366EA387 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Goro-GoroUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5065A34B1836A424CACB61CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoroTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78DAB7D3BC1A253ED1538199 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Goro-GoroUITests/Pods-Goro-GoroUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Goro-GoroUITests/Pods-Goro-GoroUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Goro-GoroUITests/Pods-Goro-GoroUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCD59E7B3CB9B81D78468F11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Goro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DBC8A4A12C4FDFDC00845FFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBFE8E682C5CA15B0044CB96 /* Category.swift in Sources */,
+				DB149CC52C58B136005F71C0 /* ImageSliderView.swift in Sources */,
 				DBC8A4AB2C4FDFDC00845FFF /* ContentView.swift in Sources */,
+				DBFE8E7F2C6322BE0044CB96 /* ApiDetailView.swift in Sources */,
+				DBFE8E812C6324E20044CB96 /* ApiRowView.swift in Sources */,
+				DBFE8E852C6340D80044CB96 /* ApiService.swift in Sources */,
+				DBFE8E8C2C636E560044CB96 /* AddDataView.swift in Sources */,
+				DBFE8E722C5D0BA40044CB96 /* TestApiView.swift in Sources */,
+				DBFE8E6A2C5CA2520044CB96 /* Store.swift in Sources */,
+				DBFE8E7B2C62171C0044CB96 /* ApiGroup.swift in Sources */,
+				DBFE8E792C6212D40044CB96 /* Api.swift in Sources */,
+				DB149CC12C578CA2005F71C0 /* ImageSlider.swift in Sources */,
 				DBC8A4AD2C4FDFDC00845FFF /* Item.swift in Sources */,
+				DBFE8E7D2C62195B0044CB96 /* GetVM.swift in Sources */,
+				DBFE8E752C62087F0044CB96 /* ApiError.swift in Sources */,
+				DBFE8E662C5B0E4B0044CB96 /* PagingControl.swift in Sources */,
+				DBC8A4D62C4FE08600845FFF /* LoginView.swift in Sources */,
+				DBC8A4D82C4FE0C500845FFF /* LoadingView.swift in Sources */,
 				DBC8A4A92C4FDFDC00845FFF /* GoroApp.swift in Sources */,
+				DB149CC32C58AD8F005F71C0 /* ImageSliderViewModel.swift in Sources */,
+				DBFE8E6E2C5CD1140044CB96 /* PostVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +725,7 @@
 		};
 		DBC8A4CD2C4FDFDE00845FFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3231A668F21D145B44CBC5F3 /* Pods-Goro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -424,7 +733,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Goro/Preview Content\"";
+				DEVELOPMENT_TEAM = X3575J63PM;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -432,6 +743,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -453,6 +765,7 @@
 		};
 		DBC8A4CE2C4FDFDE00845FFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39012B637F3E00CC2F44B7E7 /* Pods-Goro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,7 +773,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Goro/Preview Content\"";
+				DEVELOPMENT_TEAM = X3575J63PM;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -468,6 +783,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -489,6 +805,7 @@
 		};
 		DBC8A4D02C4FDFDE00845FFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 220C58E1C8AF048F64D445DE /* Pods-GoroTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +828,7 @@
 		};
 		DBC8A4D12C4FDFDE00845FFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E0C7AB28B0028FF7DDB7796 /* Pods-GoroTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +851,7 @@
 		};
 		DBC8A4D32C4FDFDE00845FFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A38D9E93DF867729E588677 /* Pods-Goro-GoroUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -554,6 +873,7 @@
 		};
 		DBC8A4D42C4FDFDE00845FFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F7D260DAB76954C2241555D /* Pods-Goro-GoroUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
